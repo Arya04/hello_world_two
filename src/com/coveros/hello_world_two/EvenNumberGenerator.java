@@ -1,3 +1,4 @@
+package com.coveros.hello_world_two;
 import java.util.Random;
 
 public class EvenNumberGenerator {

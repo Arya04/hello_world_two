@@ -1,3 +1,5 @@
+package com.coveros.hello_world_two_tests;
+
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import com.coveros.hello_world_two.EvenNumberGenerator;
@@ -9,4 +11,5 @@ public class EvenNumberGeneratorTest{
 		int randomResult = EvenNumberGenerator.generateRandomEven();
 		assertEquals(0,randomResult%2);
 	}
+
 }

@@ -32,7 +32,9 @@ apply plugin: 'nebula.rpm'
 apply plugin: 'pmd'
 apply plugin: "findbugs"
 apply plugin: 'checkstyle'
-apply plugin: "sonar-runner"
+
+
+apply plugin: "org.sonarqube" version 2.6
 
 jacocoTestReport {
     reports {
@@ -105,8 +107,8 @@ pmd {
   ]
 }
 
-sonarRunner {
-    sonarProperties {
+sonarqube {
+    properties {
         property "sonar.host.url", "http://172.31.2.231:9000"
         property "sonar.username", "admin"
         property "sonar.password", "admin"

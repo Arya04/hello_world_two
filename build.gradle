@@ -35,8 +35,9 @@ apply plugin: 'pmd'
 apply plugin: "findbugs"
 apply plugin: 'checkstyle'
 
-
 apply plugin: "org.sonarqube"
+
+
 
 jacocoTestReport {
     reports {

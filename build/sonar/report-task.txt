@@ -1,0 +1,6 @@
+projectKey=hello_world_two
+serverUrl=http://172.31.2.231:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://172.31.2.231:9000/dashboard/index/hello_world_two
+ceTaskId=AV_F7Lcn4Vqwq9f-3x0n
+ceTaskUrl=http://172.31.2.231:9000/api/ce/task?id=AV_F7Lcn4Vqwq9f-3x0n

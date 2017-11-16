@@ -11,6 +11,8 @@ buildscript {
 		
 		classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
 		
+		classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6"
+		
 		
 	}
 }
@@ -34,7 +36,7 @@ apply plugin: "findbugs"
 apply plugin: 'checkstyle'
 
 
-apply plugin: "org.sonarqube" version 2.6
+apply plugin: "org.sonarqube"
 
 jacocoTestReport {
     reports {
@@ -112,10 +114,10 @@ sonarqube {
         property "sonar.host.url", "http://172.31.2.231:9000"
         property "sonar.username", "admin"
         property "sonar.password", "admin"
-        property "sonar.jdbc.url", "jdbc:mysql://172.31.2.231:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
-        property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
-        property "sonar.jdbc.username", "sonaruser"
-        property "sonar.jdbc.password", "sonar"
+       // property "sonar.jdbc.url", "jdbc:mysql://172.31.2.231:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
+       // property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
+       // property "sonar.jdbc.username", "sonaruser"
+       // property "sonar.jdbc.password", "sonar"
         property "sonar.java.source", "1.8"
     }
 }

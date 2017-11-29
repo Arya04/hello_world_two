@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.6.1" timestamp="2017-11-16T14:04:09.855">
+<pmd version="5.6.1" timestamp="2017-11-29T11:31:56.995">
 <file name="C:\Users\Coveros\eclipse-workspace\hello_world_two\src\test\java\com\coveros\hello_world_two_tests\EvenNumberGeneratorTest.java">
-<violation beginline="7" endline="14" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.coveros.hello_world_two_tests" class="EvenNumberGeneratorTest" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+<violation beginline="7" endline="15" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.coveros.hello_world_two_tests" class="EvenNumberGeneratorTest" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
 headerCommentRequirement Required
 </violation>
 <violation beginline="10" endline="13" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.coveros.hello_world_two_tests" class="EvenNumberGeneratorTest" method="testRandomEvenNumberGenerator" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
